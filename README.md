@@ -27,8 +27,6 @@ curl http://localhost:8080/api/v1/health
 
 Arrêtez les services avec `docker compose down`. Les données PostgreSQL restent dans le volume `postgres_data`. Pour supprimer aussi les données locales, utilisez `docker compose down -v`.
 
-Dans l'aperçu Replit, le workflow lance l'API sur le port `5000` avec le profil `dev` et une instance PostgreSQL locale. Ses données sont stockées dans `.data/postgres` (ignoré par Git) et conservées entre les redémarrages du workflow.
-
 ## Démarrage local
 
 1. Démarrez PostgreSQL (par exemple avec `docker compose up -d postgres`).
