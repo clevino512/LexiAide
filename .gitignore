@@ -5,6 +5,7 @@
 .env
 .env.*
 !.env.example
+src/main/resources/application-dev.yml
 *.log
 .DS_Store
 /.data/
